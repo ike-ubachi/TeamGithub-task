@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "52f45184-379c-4ae5-ab8f-ab52fe4e2e40",
+		"name": "GITHUB TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29195559"
+	},
+	"item": [
+		{
+			"name": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"console.log(jsonData.collection.info)\r",
+							"console.log(jsonData.collection.info.name)\r",
+							"pm.environment.set(\"name\",jsonData.collection.info.name);\r",
+							"\r",
+							"console.log(jsonData.collection.info._postman_id)\r",
+							"pm.environment.set(\"_postman_id\", jsonData.collection.info._postman_id);\r",
+							"\r",
+							"console.log(jsonData.collection.info.schema)\r",
+							"pm.environment.set(\"schema\", jsonData.collection.info.schema);\r",
+							"\r",
+							"console.log(jsonData.collection.info.updatedAt)\r",
+							"pm.environment.set(\"updatedAt\", jsonData.collection.info.updatedAt);\r",
+							"\r",
+							"console.log(jsonData.collection.info.uid)\r",
+							"pm.environment.set(\"uid\", jsonData.collection.info.uid);\r",
+							"\r",
+							"pm.test(\"Status code should be 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Status code name should have an OK string\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"console.log(jsonData.collection.info)\r",
+							"\r",
+							"\r",
+							"pm.test(\"i am verifying the name\",  function () {\r",
+							"    pm.expect(jsonData.collection.info.name).to.eql(\"STSTStudentCourse\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"i am verifying the schema\",  function () {\r",
+							"    pm.expect(jsonData.collection.info.schema).to.eql(\"https://schema.getpostman.com/json/collection/v2.1.0/collection.json\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"i am verifying the _postman_id\",  function () {\r",
+							"    pm.expect(jsonData.collection.info._postman_id).to.eql(\"8ed1a723-7194-4433-9aef-352e9b86d1e0\");\r",
+							"});\r",
+							"pm.test(\"i am verifying the updatedAt\",  function () {\r",
+							"    pm.expect(jsonData.collection.info.updatedAt).to.eql(\"2023-06-28T09:08:14.000Z\");\r",
+							"});\r",
+							"pm.test(\"i am verifying the uid\",  function () {\r",
+							"    pm.expect(jsonData.collection.info.uid).to.eql(\"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"confirm that the name contain Get All Todo Entries\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get All Todo Entries\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Get All Entries\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get All Entries\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Get entry per ID\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get entry per ID\");\r",
+							"}); \r",
+							"pm.test(\"confirm that the name contains Get Books\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get Books\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Place a book order\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Place a book order\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Get an order\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get an order\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Update an order\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Update an order\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Delete an order\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Delete an order\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Register API Client\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Register API Client\");\r",
+							"});\r",
+							"pm.test(\"confirm that the name should contain Get API Status\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Get API Status\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"2023-06-28T09:08:14.000Z\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"https://schema.getpostman.com/json/collection/v2.1.0/collection.json\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"STSTStudentCourse\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"8ed1a723-7194-4433-9aef-352e9b86d1e0\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"collection\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"info\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"_postman_id\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"schema\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"updatedAt\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"uid\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrl}}/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"collections",
+						"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "PMAT-01H40M7GCGGGYX7EFK4BFTRHZX"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code should be 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	]
+}
