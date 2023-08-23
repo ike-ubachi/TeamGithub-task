@@ -1,0 +1,386 @@
+{
+	"id": "e77752d3-4811-4801-ab3d-c03942de213c",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-08-23T15:08:30.998Z",
+	"collection_id": "29195559-c5c85ebe-2686-48c7-95dc-d4b658d2aa81",
+	"folder_id": 0,
+	"environment_id": "29195559-04ef5bfd-7d09-4964-ba01-5468055c7758",
+	"totalPass": 64,
+	"delay": "234",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-23T15:08:24.956Z",
+	"totalFail": 8,
+	"results": [
+		{
+			"id": "a137021d-60b0-4075-8964-e5eba01cc0dd",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true,
+				"verify that the apiVersion equals 7.1.4.0": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the apiVersion equals 7.1.4.0": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				595,
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				}
+			]
+		},
+		{
+			"id": "f292105d-f532-4c73-9a01-3635de2bc1cd",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 271,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true,
+				"verify that the apiVersion equals 7.1.4.0": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the apiVersion equals 7.1.4.0": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				298,
+				271
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				}
+			]
+		},
+		{
+			"id": "9a6b2267-2fe0-4615-8aec-7f7b1ea152cb",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true,
+				"verify that the apiVersion equals 7.1.4.0": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the apiVersion equals 7.1.4.0": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				255,
+				265
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				}
+			]
+		},
+		{
+			"id": "4adeea8a-73dc-4ea0-bd0e-551bc32898c6",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 402,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true,
+				"verify that the apiVersion equals 7.1.4.0": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the apiVersion equals 7.1.4.0": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				248,
+				402
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true,
+					"verify that the apiVersion equals 7.1.4.0": false
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 2595,
+	"collection": {
+		"requests": [
+			{
+				"id": "a137021d-60b0-4075-8964-e5eba01cc0dd",
+				"method": "GET"
+			},
+			{
+				"id": "f292105d-f532-4c73-9a01-3635de2bc1cd",
+				"method": "GET"
+			},
+			{
+				"id": "9a6b2267-2fe0-4615-8aec-7f7b1ea152cb",
+				"method": "GET"
+			},
+			{
+				"id": "4adeea8a-73dc-4ea0-bd0e-551bc32898c6",
+				"method": "GET"
+			}
+		]
+	}
+}

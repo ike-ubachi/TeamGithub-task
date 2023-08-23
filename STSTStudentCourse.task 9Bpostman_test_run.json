@@ -1,0 +1,645 @@
+{
+	"id": "c48f0cf7-db69-4a7a-9019-52148125051d",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-08-23T15:26:31.219Z",
+	"collection_id": "29195559-c5c85ebe-2686-48c7-95dc-d4b658d2aa81",
+	"folder_id": 0,
+	"environment_id": "29195559-2ac7d34a-0e82-452f-89d2-159bc90cc341",
+	"totalPass": 82,
+	"delay": "234",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-23T15:26:17.101Z",
+	"totalFail": 16,
+	"results": [
+		{
+			"id": "3dae2aea-5269-4526-8263-7ab630098f4f",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 1274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name contains The Russian": true,
+				"verify that the type is non-fiction": true,
+				"verify that the body contains The Midnight Library": true,
+				"verify that the body contains Untamed": true,
+				"verify that the body contains true": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name contains The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the type is non-fiction": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains The Midnight Library": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Untamed": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains true": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				1025,
+				1274
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the type is non-fiction": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains Untamed": true,
+					"verify that the body contains true": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the type is non-fiction": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains Untamed": true,
+					"verify that the body contains true": true
+				}
+			]
+		},
+		{
+			"id": "151c0499-ddbb-4744-a2eb-0c41da1726ec",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name is The Russian": true,
+				"verify that the body contains": true,
+				"verify that the body contains James Patterson and James O. Born": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name is The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains James Patterson and James O. Born": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255,
+				287
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name is The Russian": true,
+					"verify that the body contains": true,
+					"verify that the body contains James Patterson and James O. Born": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name is The Russian": true,
+					"verify that the body contains": true,
+					"verify that the body contains James Patterson and James O. Born": true
+				}
+			]
+		},
+		{
+			"id": "3d277fa8-b96b-4ee6-afe6-96854a8766d5",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name contains The Russian": true,
+				"verify that the body contains The Midnight Library": true,
+				"verify that the body contains true": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name contains The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains The Midnight Library": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains true": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				239,
+				315
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains true": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains true": true
+				}
+			]
+		},
+		{
+			"id": "0918d65d-a970-49fc-ae62-d0ddfaac14e9",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 244,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				250,
+				244
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "af13486b-f80c-437e-b96f-69da0676770d",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders?vanID=4",
+			"time": 247,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 2
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				317,
+				247
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "69c1a295-e5e7-4b53-ab19-2d2180556f07",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/AaX7WGCUeHH3lRwGRh57M",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 2
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				247,
+				236
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "84971e22-8e83-421e-b727-3a9016ad6f78",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me/orders/",
+			"time": 258,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				259,
+				258
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "41bfc727-4014-4e43-b174-24ba7a98ba21",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/rObASEWYlVrRX6cTAEgbt",
+			"time": 247,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				242,
+				247
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "1d221a98-e8fd-4563-a875-0cc674eded53",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 284,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status code is 409": true,
+				"Status code name has string": false,
+				"verify that the error is API client already registered. Try a different email.": true,
+				"verify that the body contains API client already registered. Try a different email.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 409": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is API client already registered. Try a different email.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the body contains API client already registered. Try a different email.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				263,
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 409": true,
+					"Status code name has string": false,
+					"verify that the error is API client already registered. Try a different email.": true,
+					"verify that the body contains API client already registered. Try a different email.": true
+				},
+				{
+					"Status code is 409": true,
+					"Status code name has string": false,
+					"verify that the error is API client already registered. Try a different email.": true,
+					"verify that the body contains API client already registered. Try a different email.": true
+				}
+			]
+		},
+		{
+			"id": "382dd251-f8eb-4d4c-8a2c-6176028ff169",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 239,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the status is OK": true,
+				"verify that the body contains status": true,
+				"verify that the body contains OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the status is OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains status": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains OK": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				283,
+				239
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the status is OK": true,
+					"verify that the body contains status": true,
+					"verify that the body contains OK": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the status is OK": true,
+					"verify that the body contains status": true,
+					"verify that the body contains OK": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 7011,
+	"collection": {
+		"requests": [
+			{
+				"id": "3dae2aea-5269-4526-8263-7ab630098f4f",
+				"method": "GET"
+			},
+			{
+				"id": "151c0499-ddbb-4744-a2eb-0c41da1726ec",
+				"method": "GET"
+			},
+			{
+				"id": "3d277fa8-b96b-4ee6-afe6-96854a8766d5",
+				"method": "GET"
+			},
+			{
+				"id": "0918d65d-a970-49fc-ae62-d0ddfaac14e9",
+				"method": "POST"
+			},
+			{
+				"id": "af13486b-f80c-437e-b96f-69da0676770d",
+				"method": "GET"
+			},
+			{
+				"id": "69c1a295-e5e7-4b53-ab19-2d2180556f07",
+				"method": "GET"
+			},
+			{
+				"id": "84971e22-8e83-421e-b727-3a9016ad6f78",
+				"method": "POST"
+			},
+			{
+				"id": "41bfc727-4014-4e43-b174-24ba7a98ba21",
+				"method": "DELETE"
+			},
+			{
+				"id": "1d221a98-e8fd-4563-a875-0cc674eded53",
+				"method": "POST"
+			},
+			{
+				"id": "382dd251-f8eb-4d4c-8a2c-6176028ff169",
+				"method": "GET"
+			}
+		]
+	}
+}
