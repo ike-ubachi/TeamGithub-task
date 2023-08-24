@@ -1,0 +1,981 @@
+{
+	"id": "264c4c8e-8e5a-4fb3-a37b-ecb36314ee5b",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-08-24T06:34:40.564Z",
+	"collection_id": "29195559-c5c85ebe-2686-48c7-95dc-d4b658d2aa81",
+	"folder_id": 0,
+	"environment_id": "29195559-04ef5bfd-7d09-4964-ba01-5468055c7758",
+	"totalPass": 146,
+	"delay": "234",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-24T06:34:19.332Z",
+	"totalFail": 16,
+	"results": [
+		{
+			"id": "a137021d-60b0-4075-8964-e5eba01cc0dd",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				553,
+				245
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				}
+			]
+		},
+		{
+			"id": "f292105d-f532-4c73-9a01-3635de2bc1cd",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				255,
+				252
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				}
+			]
+		},
+		{
+			"id": "9a6b2267-2fe0-4615-8aec-7f7b1ea152cb",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				254,
+				249
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				}
+			]
+		},
+		{
+			"id": "4adeea8a-73dc-4ea0-bd0e-551bc32898c6",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 286,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm that the apiVersion is 7.1.4.0": true,
+				"confirm that the title is Fusio": true,
+				"confirm that the paymentCurrency is EUR": true,
+				"confirm that the second categories contains system": true,
+				"verify that the body contains categories": true,
+				"verify that the body contains title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the apiVersion is 7.1.4.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the title is Fusio": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"confirm that the second categories contains system": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains categories": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains title": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				249,
+				286
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm that the apiVersion is 7.1.4.0": true,
+					"confirm that the title is Fusio": true,
+					"confirm that the paymentCurrency is EUR": true,
+					"confirm that the second categories contains system": true,
+					"verify that the body contains categories": true,
+					"verify that the body contains title": true
+				}
+			]
+		},
+		{
+			"id": "3dae2aea-5269-4526-8263-7ab630098f4f",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 695,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name contains The Russian": true,
+				"verify that the type is non-fiction": true,
+				"verify that the body contains The Midnight Library": true,
+				"verify that the body contains Untamed": true,
+				"verify that the body contains true": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name contains The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the type is non-fiction": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains The Midnight Library": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Untamed": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains true": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				1533,
+				695
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the type is non-fiction": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains Untamed": true,
+					"verify that the body contains true": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the type is non-fiction": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains Untamed": true,
+					"verify that the body contains true": true
+				}
+			]
+		},
+		{
+			"id": "151c0499-ddbb-4744-a2eb-0c41da1726ec",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 539,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name is The Russian": true,
+				"verify that the body contains": true,
+				"verify that the body contains James Patterson and James O. Born": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name is The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains James Patterson and James O. Born": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				441,
+				539
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name is The Russian": true,
+					"verify that the body contains": true,
+					"verify that the body contains James Patterson and James O. Born": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name is The Russian": true,
+					"verify that the body contains": true,
+					"verify that the body contains James Patterson and James O. Born": true
+				}
+			]
+		},
+		{
+			"id": "3d277fa8-b96b-4ee6-afe6-96854a8766d5",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the id is 1": true,
+				"verify that the name contains The Russian": true,
+				"verify that the body contains The Midnight Library": true,
+				"verify that the body contains true": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the id is 1": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the name contains The Russian": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains The Midnight Library": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains true": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				303,
+				245
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains true": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the id is 1": true,
+					"verify that the name contains The Russian": true,
+					"verify that the body contains The Midnight Library": true,
+					"verify that the body contains true": true
+				}
+			]
+		},
+		{
+			"id": "0918d65d-a970-49fc-ae62-d0ddfaac14e9",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 272,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				254,
+				272
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "af13486b-f80c-437e-b96f-69da0676770d",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders?vanID=4",
+			"time": 272,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 2
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				722,
+				272
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "69c1a295-e5e7-4b53-ab19-2d2180556f07",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/AaX7WGCUeHH3lRwGRh57M",
+			"time": 244,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 2
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				389,
+				244
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 200": false,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "84971e22-8e83-421e-b727-3a9016ad6f78",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me/orders/",
+			"time": 767,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				271,
+				767
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "41bfc727-4014-4e43-b174-24ba7a98ba21",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/rObASEWYlVrRX6cTAEgbt",
+			"time": 329,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name has string": false,
+				"verify that the error is Invalid bearer token": true,
+				"verify that the body contains Invalid bearer token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains Invalid bearer token": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				277,
+				329
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				},
+				{
+					"Status code is 401": true,
+					"Status code name has string": false,
+					"verify that the error is Invalid bearer token": true,
+					"verify that the body contains Invalid bearer token": true
+				}
+			]
+		},
+		{
+			"id": "1d221a98-e8fd-4563-a875-0cc674eded53",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 358,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status code is 409": true,
+				"Status code name has string": false,
+				"verify that the error is API client already registered. Try a different email.": true,
+				"verify that the body contains API client already registered. Try a different email.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 409": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 2
+				},
+				"verify that the error is API client already registered. Try a different email.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the body contains API client already registered. Try a different email.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				393,
+				358
+			],
+			"allTests": [
+				{
+					"Status code is 409": true,
+					"Status code name has string": false,
+					"verify that the error is API client already registered. Try a different email.": true,
+					"verify that the body contains API client already registered. Try a different email.": true
+				},
+				{
+					"Status code is 409": true,
+					"Status code name has string": false,
+					"verify that the error is API client already registered. Try a different email.": true,
+					"verify that the body contains API client already registered. Try a different email.": true
+				}
+			]
+		},
+		{
+			"id": "382dd251-f8eb-4d4c-8a2c-6176028ff169",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 514,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"verify that the status is OK": true,
+				"verify that the body contains status": true,
+				"verify that the body contains OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the status is OK": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains status": {
+					"pass": 2,
+					"fail": 0
+				},
+				"verify that the body contains OK": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				257,
+				514
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the status is OK": true,
+					"verify that the body contains status": true,
+					"verify that the body contains OK": true
+				},
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"verify that the status is OK": true,
+					"verify that the body contains status": true,
+					"verify that the body contains OK": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 11418,
+	"collection": {
+		"requests": [
+			{
+				"id": "a137021d-60b0-4075-8964-e5eba01cc0dd",
+				"method": "GET"
+			},
+			{
+				"id": "f292105d-f532-4c73-9a01-3635de2bc1cd",
+				"method": "GET"
+			},
+			{
+				"id": "9a6b2267-2fe0-4615-8aec-7f7b1ea152cb",
+				"method": "GET"
+			},
+			{
+				"id": "4adeea8a-73dc-4ea0-bd0e-551bc32898c6",
+				"method": "GET"
+			},
+			{
+				"id": "3dae2aea-5269-4526-8263-7ab630098f4f",
+				"method": "GET"
+			},
+			{
+				"id": "151c0499-ddbb-4744-a2eb-0c41da1726ec",
+				"method": "GET"
+			},
+			{
+				"id": "3d277fa8-b96b-4ee6-afe6-96854a8766d5",
+				"method": "GET"
+			},
+			{
+				"id": "0918d65d-a970-49fc-ae62-d0ddfaac14e9",
+				"method": "POST"
+			},
+			{
+				"id": "af13486b-f80c-437e-b96f-69da0676770d",
+				"method": "GET"
+			},
+			{
+				"id": "69c1a295-e5e7-4b53-ab19-2d2180556f07",
+				"method": "GET"
+			},
+			{
+				"id": "84971e22-8e83-421e-b727-3a9016ad6f78",
+				"method": "POST"
+			},
+			{
+				"id": "41bfc727-4014-4e43-b174-24ba7a98ba21",
+				"method": "DELETE"
+			},
+			{
+				"id": "1d221a98-e8fd-4563-a875-0cc674eded53",
+				"method": "POST"
+			},
+			{
+				"id": "382dd251-f8eb-4d4c-8a2c-6176028ff169",
+				"method": "GET"
+			}
+		]
+	}
+}
